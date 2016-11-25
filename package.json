@@ -2,50 +2,50 @@
   "_args": [
     [
       {
-        "raw": "codemirror@5.20.2",
+        "raw": "codemirror@5.21.0",
         "scope": null,
         "escapedName": "codemirror",
         "name": "codemirror",
-        "rawSpec": "5.20.2",
-        "spec": "5.20.2",
+        "rawSpec": "5.21.0",
+        "spec": "5.21.0",
         "type": "version"
       },
-      "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.MGvKq3oe"
+      "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.jcwKwtRA"
     ]
   ],
-  "_from": "codemirror@5.20.2",
-  "_id": "codemirror@5.20.2",
+  "_from": "codemirror@5.21.0",
+  "_id": "codemirror@5.21.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/codemirror",
-  "_nodeVersion": "6.3.0",
+  "_nodeVersion": "6.9.1",
   "_npmOperationalInternal": {
     "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/codemirror-5.20.2.tgz_1477030757025_0.7836660770699382"
+    "tmp": "tmp/codemirror-5.21.0.tgz_1479723046708_0.6828831229358912"
   },
   "_npmUser": {
     "name": "marijn",
     "email": "marijnh@gmail.com"
   },
-  "_npmVersion": "3.10.3",
+  "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "codemirror@5.20.2",
+    "raw": "codemirror@5.21.0",
     "scope": null,
     "escapedName": "codemirror",
     "name": "codemirror",
-    "rawSpec": "5.20.2",
-    "spec": "5.20.2",
+    "rawSpec": "5.21.0",
+    "spec": "5.21.0",
     "type": "version"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.20.2.tgz",
-  "_shasum": "918e0ece96d57a99030b2f8b33011284bed5217a",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.21.0.tgz",
+  "_shasum": "9ec4caeda50807575b2115226bf12414f85d2246",
   "_shrinkwrap": null,
-  "_spec": "codemirror@5.20.2",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.MGvKq3oe",
+  "_spec": "codemirror@5.21.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.jcwKwtRA",
   "bugs": {
     "url": "http://github.com/codemirror/CodeMirror/issues"
   },
@@ -82,6 +82,9 @@
     },
     {
       "name": "Adrian Heine"
+    },
+    {
+      "name": "Adrien Bertrand"
     },
     {
       "name": "aeroson"
@@ -307,6 +310,9 @@
     },
     {
       "name": "Bharad"
+    },
+    {
+      "name": "BigBlueHat"
     },
     {
       "name": "Billy Moon"
@@ -877,6 +883,9 @@
       "name": "Jim"
     },
     {
+      "name": "Jim Avery"
+    },
+    {
       "name": "JobJob"
     },
     {
@@ -896,6 +905,9 @@
     },
     {
       "name": "John Connor"
+    },
+    {
+      "name": "John-David Dalton"
     },
     {
       "name": "John Engler"
@@ -986,6 +998,9 @@
     },
     {
       "name": "Kayur Patel"
+    },
+    {
+      "name": "Kazuhito Hokamura"
     },
     {
       "name": "Ken Newman"
@@ -1118,6 +1133,9 @@
     },
     {
       "name": "Marcel Gerber"
+    },
+    {
+      "name": "Marcelo Camargo"
     },
     {
       "name": "Marco Aurélio"
@@ -1421,6 +1439,9 @@
       "name": "Paris"
     },
     {
+      "name": "Paris Kasidiaris"
+    },
+    {
       "name": "Patil Arpith"
     },
     {
@@ -1574,6 +1595,9 @@
       "name": "Sander AKA Redsandro"
     },
     {
+      "name": "Sander Verweij"
+    },
+    {
       "name": "santec"
     },
     {
@@ -1682,6 +1706,9 @@
       "name": "Steve Champagne"
     },
     {
+      "name": "Steve Hoover"
+    },
+    {
       "name": "Steve O'Hara"
     },
     {
@@ -1698,6 +1725,9 @@
     },
     {
       "name": "Taha Jahangir"
+    },
+    {
+      "name": "takamori"
     },
     {
       "name": "Tako Schotanus"
@@ -1888,10 +1918,10 @@
     "lib": "./lib"
   },
   "dist": {
-    "shasum": "918e0ece96d57a99030b2f8b33011284bed5217a",
-    "tarball": "https://registry.npmjs.org/codemirror/-/codemirror-5.20.2.tgz"
+    "shasum": "9ec4caeda50807575b2115226bf12414f85d2246",
+    "tarball": "https://registry.npmjs.org/codemirror/-/codemirror-5.21.0.tgz"
   },
-  "gitHead": "d221bf5d15680e06528e1558c014d178c4bc740d",
+  "gitHead": "692393d609e4cc96a1726830ff161c3f4e56670e",
   "homepage": "http://codemirror.net",
   "jspm": {
     "directories": {},
@@ -1925,5 +1955,5 @@
     "test": "node ./test/run.js",
     "watch": "rollup -w -c"
   },
-  "version": "5.20.2"
+  "version": "5.21.0"
 }
