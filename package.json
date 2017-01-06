@@ -2,26 +2,26 @@
   "_args": [
     [
       {
-        "raw": "codemirror@5.21.0",
+        "raw": "codemirror@5.22.0",
         "scope": null,
         "escapedName": "codemirror",
         "name": "codemirror",
-        "rawSpec": "5.21.0",
-        "spec": "5.21.0",
+        "rawSpec": "5.22.0",
+        "spec": "5.22.0",
         "type": "version"
       },
-      "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.jcwKwtRA"
+      "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.y0YvBIua"
     ]
   ],
-  "_from": "codemirror@5.21.0",
-  "_id": "codemirror@5.21.0",
+  "_from": "codemirror@5.22.0",
+  "_id": "codemirror@5.22.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/codemirror",
   "_nodeVersion": "6.9.1",
   "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/codemirror-5.21.0.tgz_1479723046708_0.6828831229358912"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/codemirror-5.22.0.tgz_1482244924365_0.4509893774520606"
   },
   "_npmUser": {
     "name": "marijn",
@@ -30,22 +30,22 @@
   "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "codemirror@5.21.0",
+    "raw": "codemirror@5.22.0",
     "scope": null,
     "escapedName": "codemirror",
     "name": "codemirror",
-    "rawSpec": "5.21.0",
-    "spec": "5.21.0",
+    "rawSpec": "5.22.0",
+    "spec": "5.22.0",
     "type": "version"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.21.0.tgz",
-  "_shasum": "9ec4caeda50807575b2115226bf12414f85d2246",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.22.0.tgz",
+  "_shasum": "281ec76ed991ef24db4071fdf4deb746e80bff18",
   "_shrinkwrap": null,
-  "_spec": "codemirror@5.21.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.jcwKwtRA",
+  "_spec": "codemirror@5.22.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.y0YvBIua",
   "bugs": {
     "url": "http://github.com/codemirror/CodeMirror/issues"
   },
@@ -187,6 +187,9 @@
     },
     {
       "name": "Andre von Houck"
+    },
+    {
+      "name": "Andrew Cheng"
     },
     {
       "name": "Andrey Fedorov"
@@ -610,6 +613,9 @@
     },
     {
       "name": "Felix Raab"
+    },
+    {
+      "name": "ficristo"
     },
     {
       "name": "Filip Noetzel"
@@ -1556,6 +1562,9 @@
       "name": "Richard Z.H. Wang"
     },
     {
+      "name": "Rishi Goomar"
+    },
+    {
       "name": "Robert Crossfield"
     },
     {
@@ -1802,6 +1811,9 @@
       "name": "Tom Erik Støwer"
     },
     {
+      "name": "Tom Klancer"
+    },
+    {
       "name": "Tom MacWright"
     },
     {
@@ -1911,17 +1923,17 @@
     "node-static": "0.6.0",
     "phantomjs-prebuilt": "^2.1.12",
     "rollup": "^0.34.10",
-    "rollup-plugin-buble": "^0.14.0",
+    "rollup-plugin-buble": "^0.15.0",
     "rollup-watch": "^2.5.0"
   },
   "directories": {
     "lib": "./lib"
   },
   "dist": {
-    "shasum": "9ec4caeda50807575b2115226bf12414f85d2246",
-    "tarball": "https://registry.npmjs.org/codemirror/-/codemirror-5.21.0.tgz"
+    "shasum": "281ec76ed991ef24db4071fdf4deb746e80bff18",
+    "tarball": "https://registry.npmjs.org/codemirror/-/codemirror-5.22.0.tgz"
   },
-  "gitHead": "692393d609e4cc96a1726830ff161c3f4e56670e",
+  "gitHead": "bfdfb212f76f479b3e651daa688f5da6909e7f48",
   "homepage": "http://codemirror.net",
   "jspm": {
     "directories": {},
@@ -1955,5 +1967,5 @@
     "test": "node ./test/run.js",
     "watch": "rollup -w -c"
   },
-  "version": "5.21.0"
+  "version": "5.22.0"
 }
