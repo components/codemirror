@@ -2,26 +2,26 @@
   "_args": [
     [
       {
-        "raw": "codemirror@5.24.2",
+        "raw": "codemirror@5.25.0",
         "scope": null,
         "escapedName": "codemirror",
         "name": "codemirror",
-        "rawSpec": "5.24.2",
-        "spec": "5.24.2",
+        "rawSpec": "5.25.0",
+        "spec": "5.25.0",
         "type": "version"
       },
-      "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.WdPW3CSv"
+      "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.vegl0S7q"
     ]
   ],
-  "_from": "codemirror@5.24.2",
-  "_id": "codemirror@5.24.2",
+  "_from": "codemirror@5.25.0",
+  "_id": "codemirror@5.25.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/codemirror",
   "_nodeVersion": "6.9.1",
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/codemirror-5.24.2.tgz_1487759865465_0.8867276064120233"
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/codemirror-5.25.0.tgz_1490007586092_0.3735256518702954"
   },
   "_npmUser": {
     "name": "marijn",
@@ -30,22 +30,22 @@
   "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "codemirror@5.24.2",
+    "raw": "codemirror@5.25.0",
     "scope": null,
     "escapedName": "codemirror",
     "name": "codemirror",
-    "rawSpec": "5.24.2",
-    "spec": "5.24.2",
+    "rawSpec": "5.25.0",
+    "spec": "5.25.0",
     "type": "version"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.24.2.tgz",
-  "_shasum": "b55ca950fa009709c37df68eb133310ed89cf2fe",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.25.0.tgz",
+  "_shasum": "78e06939c7bb41f65707b8aa9c5328111948b756",
   "_shrinkwrap": null,
-  "_spec": "codemirror@5.24.2",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.WdPW3CSv",
+  "_spec": "codemirror@5.25.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.vegl0S7q",
   "bugs": {
     "url": "http://github.com/codemirror/CodeMirror/issues"
   },
@@ -139,6 +139,9 @@
     },
     {
       "name": "Allen Sarkisyan"
+    },
+    {
+      "name": "Ami Fischman"
     },
     {
       "name": "Amin Shali"
@@ -261,6 +264,9 @@
       "name": "Arthur Müller"
     },
     {
+      "name": "Arun Narasani"
+    },
+    {
       "name": "as3boyan"
     },
     {
@@ -274,6 +280,9 @@
     },
     {
       "name": "Aurelian Oancea"
+    },
+    {
+      "name": "Axel Lewenhaupt"
     },
     {
       "name": "Barret Rennie"
@@ -360,6 +369,9 @@
       "name": "Brian Sletten"
     },
     {
+      "name": "brrd"
+    },
+    {
       "name": "Bruce Mitchener"
     },
     {
@@ -418,6 +430,9 @@
     },
     {
       "name": "Christopher Brown"
+    },
+    {
+      "name": "Christopher Kramer"
     },
     {
       "name": "Christopher Mitchell"
@@ -1120,6 +1135,9 @@
       "name": "Lorenzo Stoakes"
     },
     {
+      "name": "Luca Fabbri"
+    },
+    {
       "name": "Luciano Longo"
     },
     {
@@ -1610,6 +1628,9 @@
       "name": "Ruslan Osmanov"
     },
     {
+      "name": "Ryan Petrello"
+    },
+    {
       "name": "Ryan Prior"
     },
     {
@@ -1952,18 +1973,18 @@
     "blint": "^0.5.1",
     "node-static": "0.6.0",
     "phantomjs-prebuilt": "^2.1.12",
-    "rollup": "^0.34.10",
+    "rollup": "^0.41.0",
     "rollup-plugin-buble": "^0.15.0",
-    "rollup-watch": "^2.5.0"
+    "rollup-watch": "^3.2.0"
   },
   "directories": {
     "lib": "./lib"
   },
   "dist": {
-    "shasum": "b55ca950fa009709c37df68eb133310ed89cf2fe",
-    "tarball": "https://registry.npmjs.org/codemirror/-/codemirror-5.24.2.tgz"
+    "shasum": "78e06939c7bb41f65707b8aa9c5328111948b756",
+    "tarball": "https://registry.npmjs.org/codemirror/-/codemirror-5.25.0.tgz"
   },
-  "gitHead": "948f94fc254e44fff74bc2cb3b2b49e6739d01fc",
+  "gitHead": "727b10ab632bdd4eaa41a6ca3766a5c50b5562da",
   "homepage": "http://codemirror.net",
   "jspm": {
     "directories": {},
@@ -1997,5 +2018,5 @@
     "test": "node ./test/run.js",
     "watch": "rollup -w -c"
   },
-  "version": "5.24.2"
+  "version": "5.25.0"
 }
