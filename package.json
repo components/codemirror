@@ -2,26 +2,26 @@
   "_args": [
     [
       {
-        "raw": "codemirror@5.27.0",
+        "raw": "codemirror@5.27.2",
         "scope": null,
         "escapedName": "codemirror",
         "name": "codemirror",
-        "rawSpec": "5.27.0",
-        "spec": "5.27.0",
+        "rawSpec": "5.27.2",
+        "spec": "5.27.2",
         "type": "version"
       },
-      "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.pxOBvQZ9"
+      "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.Dr6EjHXm"
     ]
   ],
-  "_from": "codemirror@5.27.0",
-  "_id": "codemirror@5.27.0",
+  "_from": "codemirror@5.27.2",
+  "_id": "codemirror@5.27.2",
   "_inCache": true,
   "_installable": true,
   "_location": "/codemirror",
   "_nodeVersion": "6.9.1",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/codemirror-5.27.0.tgz_1498117563903_0.6166545588057488"
+    "tmp": "tmp/codemirror-5.27.2.tgz_1498162649128_0.6554137005005032"
   },
   "_npmUser": {
     "name": "marijn",
@@ -30,22 +30,22 @@
   "_npmVersion": "5.0.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "codemirror@5.27.0",
+    "raw": "codemirror@5.27.2",
     "scope": null,
     "escapedName": "codemirror",
     "name": "codemirror",
-    "rawSpec": "5.27.0",
-    "spec": "5.27.0",
+    "rawSpec": "5.27.2",
+    "spec": "5.27.2",
     "type": "version"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.27.0.tgz",
-  "_shasum": "0c72f70c321a7d494fd8db1976698c249c985eb3",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.27.2.tgz",
+  "_shasum": "a292d42f079d5b98c68c3146fab99844f3d8776c",
   "_shrinkwrap": null,
-  "_spec": "codemirror@5.27.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.pxOBvQZ9",
+  "_spec": "codemirror@5.27.2",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.Dr6EjHXm",
   "bugs": {
     "url": "http://github.com/codemirror/CodeMirror/issues"
   },
@@ -2047,11 +2047,11 @@
     "lib": "./lib"
   },
   "dist": {
-    "integrity": "sha512-9uyxqIBkW/iNqJ1ETKxyOnxK1H+/aUuvy8bMv5qrtZpZ1G6F/Y7/SdwZzKZR9ZTDV0wUuG30VxiYtjVRJP4ijg==",
-    "shasum": "0c72f70c321a7d494fd8db1976698c249c985eb3",
-    "tarball": "https://registry.npmjs.org/codemirror/-/codemirror-5.27.0.tgz"
+    "integrity": "sha512-4YRvvOsrNc5PIzwqCoj3RT13+Qon1PD3b3dBKVgC/YAPqdbmDaS/9F51UD9DVRxY0yiAgK6bYK/ojW5ViSvkNA==",
+    "shasum": "a292d42f079d5b98c68c3146fab99844f3d8776c",
+    "tarball": "https://registry.npmjs.org/codemirror/-/codemirror-5.27.2.tgz"
   },
-  "gitHead": "314bd7fd473dc11a2a51f3a81edb2aa86132734a",
+  "gitHead": "682cb4fccc67bdad05e622744942edbf96cb4f3a",
   "homepage": "http://codemirror.net",
   "jspm": {
     "directories": {},
@@ -2086,5 +2086,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.27.0"
+  "version": "5.27.2"
 }
