@@ -2,50 +2,50 @@
   "_args": [
     [
       {
-        "raw": "codemirror@5.26.0",
+        "raw": "codemirror@5.27.0",
         "scope": null,
         "escapedName": "codemirror",
         "name": "codemirror",
-        "rawSpec": "5.26.0",
-        "spec": "5.26.0",
+        "rawSpec": "5.27.0",
+        "spec": "5.27.0",
         "type": "version"
       },
-      "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.ws4DxrWW"
+      "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.pxOBvQZ9"
     ]
   ],
-  "_from": "codemirror@5.26.0",
-  "_id": "codemirror@5.26.0",
+  "_from": "codemirror@5.27.0",
+  "_id": "codemirror@5.27.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/codemirror",
   "_nodeVersion": "6.9.1",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/codemirror-5.26.0.tgz_1495440846772_0.76624900335446"
+    "tmp": "tmp/codemirror-5.27.0.tgz_1498117563903_0.6166545588057488"
   },
   "_npmUser": {
     "name": "marijn",
     "email": "marijnh@gmail.com"
   },
-  "_npmVersion": "3.10.8",
+  "_npmVersion": "5.0.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "codemirror@5.26.0",
+    "raw": "codemirror@5.27.0",
     "scope": null,
     "escapedName": "codemirror",
     "name": "codemirror",
-    "rawSpec": "5.26.0",
-    "spec": "5.26.0",
+    "rawSpec": "5.27.0",
+    "spec": "5.27.0",
     "type": "version"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.26.0.tgz",
-  "_shasum": "bcbee86816ed123870c260461c2b5c40b68746e5",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.27.0.tgz",
+  "_shasum": "0c72f70c321a7d494fd8db1976698c249c985eb3",
   "_shrinkwrap": null,
-  "_spec": "codemirror@5.26.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.ws4DxrWW",
+  "_spec": "codemirror@5.27.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.pxOBvQZ9",
   "bugs": {
     "url": "http://github.com/codemirror/CodeMirror/issues"
   },
@@ -505,6 +505,9 @@
     },
     {
       "name": "Daniel Parnell"
+    },
+    {
+      "name": "Danila Malyutin"
     },
     {
       "name": "Danny Yoo"
@@ -1111,6 +1114,9 @@
       "name": "Kyle Kelley"
     },
     {
+      "name": "KyleMcNutt"
+    },
+    {
       "name": "Lanfei"
     },
     {
@@ -1409,6 +1415,9 @@
     },
     {
       "name": "Mu-An Chiou"
+    },
+    {
+      "name": "mzabuawala"
     },
     {
       "name": "Narciso Jaramillo"
@@ -1838,6 +1847,9 @@
       "name": "Takuji Shimokawa"
     },
     {
+      "name": "Takuya Matsuyama"
+    },
+    {
       "name": "Tarmil"
     },
     {
@@ -1845,6 +1857,9 @@
     },
     {
       "name": "tel"
+    },
+    {
+      "name": "Tentone"
     },
     {
       "name": "tfjgeorge"
@@ -1893,6 +1908,9 @@
     },
     {
       "name": "Todd Berman"
+    },
+    {
+      "name": "Todd Kennedy"
     },
     {
       "name": "Tomas-A"
@@ -2018,7 +2036,7 @@
   "dependencies": {},
   "description": "Full-featured in-browser code editor",
   "devDependencies": {
-    "blint": "^0.5.1",
+    "blint": "^1",
     "node-static": "0.6.0",
     "phantomjs-prebuilt": "^2.1.12",
     "rollup": "^0.41.0",
@@ -2029,10 +2047,11 @@
     "lib": "./lib"
   },
   "dist": {
-    "shasum": "bcbee86816ed123870c260461c2b5c40b68746e5",
-    "tarball": "https://registry.npmjs.org/codemirror/-/codemirror-5.26.0.tgz"
+    "integrity": "sha512-9uyxqIBkW/iNqJ1ETKxyOnxK1H+/aUuvy8bMv5qrtZpZ1G6F/Y7/SdwZzKZR9ZTDV0wUuG30VxiYtjVRJP4ijg==",
+    "shasum": "0c72f70c321a7d494fd8db1976698c249c985eb3",
+    "tarball": "https://registry.npmjs.org/codemirror/-/codemirror-5.27.0.tgz"
   },
-  "gitHead": "a66bcf59d959b2ef724f80080f8d128d9dcf318e",
+  "gitHead": "314bd7fd473dc11a2a51f3a81edb2aa86132734a",
   "homepage": "http://codemirror.net",
   "jspm": {
     "directories": {},
@@ -2066,5 +2085,6 @@
     "test": "node ./test/run.js",
     "watch": "rollup -w -c"
   },
-  "version": "5.26.0"
+  "style": "lib/codemirror.css",
+  "version": "5.27.0"
 }
