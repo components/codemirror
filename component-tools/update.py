@@ -30,8 +30,8 @@ for v in sorted(npm_versions, key=V):
     if V(v) < first_version:
         print("Skipping old version", v)
         continue
-    print('building', tag)
-    check_call([build_sh, tag], cwd=repo_root)
+    print('building', v)
+    check_call([build_sh, v], cwd=repo_root)
     built.append(v)
 
 if built:
