@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.31.0",
-  "_id": "codemirror@5.31.0",
+  "_from": "codemirror@5.32.0",
+  "_id": "codemirror@5.32.0",
   "_inBundle": false,
-  "_integrity": "sha512-LKbMZKoAz7pMmWuSEl253G6yyloSulj1kXfvYv+3n3I8wMiI7QwnCHwKM3Zw5S9ItNV28Layq0/ihQXWmn9T9w==",
+  "_integrity": "sha512-95OxAlYiigW0g4n4ixFdavG07clJGILp3MvHh2pKR3FvyrTuHHvqtKSVbrV3/Jz6o0YqGvyCDLDTbH4h6ciaSw==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.31.0",
+    "raw": "codemirror@5.32.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.31.0",
+    "rawSpec": "5.32.0",
     "saveSpec": null,
-    "fetchSpec": "5.31.0"
+    "fetchSpec": "5.32.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.31.0.tgz",
-  "_shasum": "ecf3d057eb74174147066bfc7c5f37b4c4e07df2",
-  "_spec": "codemirror@5.31.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.kE61hrCe",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.32.0.tgz",
+  "_shasum": "cb6ff5d8ef36d0b10f031130e2d9ebeee92c902e",
+  "_spec": "codemirror@5.32.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.E3UkjGGg",
   "bugs": {
     "url": "http://github.com/codemirror/CodeMirror/issues"
   },
@@ -384,6 +384,9 @@
     },
     {
       "name": "Camilo Roca"
+    },
+    {
+      "name": "Casey Klebba"
     },
     {
       "name": "Chad Jolly"
@@ -932,6 +935,9 @@
       "name": "Jason Siefken"
     },
     {
+      "name": "Jayaprabhakar"
+    },
+    {
       "name": "Jaydeep Solanki"
     },
     {
@@ -1012,6 +1018,9 @@
     },
     {
       "name": "Jonas Helfer"
+    },
+    {
+      "name": "Jonathan Hart"
     },
     {
       "name": "Jonathan Malmaud"
@@ -2165,5 +2174,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.31.0"
+  "version": "5.32.0"
 }
