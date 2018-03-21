@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.35.0",
-  "_id": "codemirror@5.35.0",
+  "_from": "codemirror@5.36.0",
+  "_id": "codemirror@5.36.0",
   "_inBundle": false,
-  "_integrity": "sha512-8HQICjZlDfe1ai7bvU6m2uHxuZuFgsUCdDRU9OHVB+2RTRd+FftN1ezVCqbquG0Fyq+wETqyadKhUX46DswSUQ==",
+  "_integrity": "sha512-XGR+ic+9DSMSE4mD2XLinGrMcIO4xbHpNrPzAFpCW5bjy+Em8fUOTCpagVP/+LLtTQsAROqrq1f55KyRxDcokA==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.35.0",
+    "raw": "codemirror@5.36.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.35.0",
+    "rawSpec": "5.36.0",
     "saveSpec": null,
-    "fetchSpec": "5.35.0"
+    "fetchSpec": "5.36.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.35.0.tgz",
-  "_shasum": "280653d495455bc66aa87e6284292b02775ba878",
-  "_spec": "codemirror@5.35.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.QaFBbn1j",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.36.0.tgz",
+  "_shasum": "1172ad9dc298056c06e0b34e5ccd23825ca15b40",
+  "_spec": "codemirror@5.36.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.V5GiaEFH",
   "bugs": {
     "url": "http://github.com/codemirror/CodeMirror/issues"
   },
@@ -395,6 +395,9 @@
       "name": "Casey Klebba"
     },
     {
+      "name": "César González Íñiguez"
+    },
+    {
       "name": "Chad Jolly"
     },
     {
@@ -423,6 +426,9 @@
     },
     {
       "name": "Chris Morgan"
+    },
+    {
+      "name": "Chris Reeves"
     },
     {
       "name": "Chris Smith"
@@ -804,6 +810,9 @@
     },
     {
       "name": "Hasan Karahan"
+    },
+    {
+      "name": "Heanes"
     },
     {
       "name": "Hector Oswaldo Caballero"
@@ -1189,6 +1198,9 @@
     },
     {
       "name": "leaf corcoran"
+    },
+    {
+      "name": "Lemmon"
     },
     {
       "name": "Leonid Khachaturov"
@@ -1735,10 +1747,19 @@
       "name": "Randy Edmunds"
     },
     {
+      "name": "Randy Luecke"
+    },
+    {
+      "name": "Raphael Amorim"
+    },
+    {
       "name": "Rasmus Erik Voel Jensen"
     },
     {
       "name": "Rasmus Schultz"
+    },
+    {
+      "name": "Raymond Hill"
     },
     {
       "name": "ray ratchup"
@@ -1793,6 +1814,9 @@
     },
     {
       "name": "Ryan Prior"
+    },
+    {
+      "name": "ryu-sato"
     },
     {
       "name": "sabaca"
@@ -2071,6 +2095,9 @@
       "name": "Tom MacWright"
     },
     {
+      "name": "Tom McLaughlin"
+    },
+    {
       "name": "Tony Jian"
     },
     {
@@ -2243,5 +2270,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.35.0"
+  "version": "5.36.0"
 }
