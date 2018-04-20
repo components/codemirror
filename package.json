@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.36.0",
-  "_id": "codemirror@5.36.0",
+  "_from": "codemirror@5.37.0",
+  "_id": "codemirror@5.37.0",
   "_inBundle": false,
-  "_integrity": "sha512-XGR+ic+9DSMSE4mD2XLinGrMcIO4xbHpNrPzAFpCW5bjy+Em8fUOTCpagVP/+LLtTQsAROqrq1f55KyRxDcokA==",
+  "_integrity": "sha512-dQaayDJCLU4UJcwg2RM44oFrs0dMNndTp6qxQJF6XI71l1xN3RB4IqiKES0b0rccbARbrD/UBB4t8DNknfaOTw==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.36.0",
+    "raw": "codemirror@5.37.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.36.0",
+    "rawSpec": "5.37.0",
     "saveSpec": null,
-    "fetchSpec": "5.36.0"
+    "fetchSpec": "5.37.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.36.0.tgz",
-  "_shasum": "1172ad9dc298056c06e0b34e5ccd23825ca15b40",
-  "_spec": "codemirror@5.36.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.V5GiaEFH",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.37.0.tgz",
+  "_shasum": "c349b584e158f590277f26d37c2469a6bc538036",
+  "_spec": "codemirror@5.37.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.vsJiBJ5u",
   "bugs": {
     "url": "http://github.com/codemirror/CodeMirror/issues"
   },
@@ -344,7 +344,13 @@
       "name": "blukat29"
     },
     {
+      "name": "Bo"
+    },
+    {
       "name": "boomyjee"
+    },
+    {
+      "name": "Bo Peng"
     },
     {
       "name": "borawjm"
@@ -638,6 +644,9 @@
       "name": "Eric Allam"
     },
     {
+      "name": "Eric Bogard"
+    },
+    {
       "name": "Erik Welander"
     },
     {
@@ -828,6 +837,9 @@
     },
     {
       "name": "Herculano Campos"
+    },
+    {
+      "name": "hidaiy"
     },
     {
       "name": "Hiroyuki Makino"
@@ -1123,6 +1135,9 @@
     },
     {
       "name": "karevn"
+    },
+    {
+      "name": "Karol"
     },
     {
       "name": "Kayur Patel"
@@ -1516,6 +1531,9 @@
     },
     {
       "name": "Mu-An Chiou"
+    },
+    {
+      "name": "Mu-An ✌️ Chiou"
     },
     {
       "name": "mzabuawala"
@@ -2119,10 +2137,16 @@
       "name": "TSUYUSATO Kitsune"
     },
     {
+      "name": "Tugrul Elmas"
+    },
+    {
       "name": "twifkak"
     },
     {
       "name": "Tyler Long"
+    },
+    {
+      "name": "Vadzim Ramanenka"
     },
     {
       "name": "Vaibhav Sagar"
@@ -2180,6 +2204,9 @@
     },
     {
       "name": "Wojtek Ptak"
+    },
+    {
+      "name": "wonderboyjon"
     },
     {
       "name": "Wu Cheng-Han"
@@ -2270,5 +2297,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.36.0"
+  "version": "5.37.0"
 }
