@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.39.0",
-  "_id": "codemirror@5.39.0",
+  "_from": "codemirror@5.39.2",
+  "_id": "codemirror@5.39.2",
   "_inBundle": false,
-  "_integrity": "sha512-vpJRray/0ZCt9FiS7UcVr1JAm6OBdUt6TA/94Q7MScr8TnutVdQWh/WPr0migzaBPQmYvY7I9UZNvbsaLESIuQ==",
+  "_integrity": "sha512-mchBy0kQ1Wggi+e58SmoLgKO4nG7s/BqNg6/6TRbhsnXI/KRG+fKAvRQ1LLhZZ6ZtUoDQ0dl5aMhE+IkSRh60Q==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.39.0",
+    "raw": "codemirror@5.39.2",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.39.0",
+    "rawSpec": "5.39.2",
     "saveSpec": null,
-    "fetchSpec": "5.39.0"
+    "fetchSpec": "5.39.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.39.0.tgz",
-  "_shasum": "4654f7d2f7e525e04a62e72d9482348ccb37dce5",
-  "_spec": "codemirror@5.39.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.UKgjaoqQ",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.39.2.tgz",
+  "_shasum": "778aa13b55ebf280745c309cb1b148e3fc06f698",
+  "_spec": "codemirror@5.39.2",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.MnG6nBGW",
   "bugs": {
     "url": "http://github.com/codemirror/CodeMirror/issues"
   },
@@ -549,6 +549,9 @@
     },
     {
       "name": "Darius Roberts"
+    },
+    {
+      "name": "databricks-david-lewis"
     },
     {
       "name": "Dave Brondsema"
@@ -1261,6 +1264,9 @@
     },
     {
       "name": "lochel"
+    },
+    {
+      "name": "Lorenzo Simionato"
     },
     {
       "name": "Lorenzo Stoakes"
@@ -2331,5 +2337,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.39.0"
+  "version": "5.39.2"
 }
