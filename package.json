@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.42.2",
-  "_id": "codemirror@5.42.2",
+  "_from": "codemirror@5.43.0",
+  "_id": "codemirror@5.43.0",
   "_inBundle": false,
-  "_integrity": "sha512-Tkv6im39VuhduFMsDA3MlXcC/kKas3Z0PI1/8N88QvFQbtOeiiwnfFJE4juGyC8/a4sb1BSxQlzsil8XLQdxRw==",
+  "_integrity": "sha512-mljwQWUaWIf85I7QwTBryF2ASaIvmYAL4s5UCanCJFfKeXOKhrqdHWdHiZWAMNT+hjLTCnVx2S/SYTORIgxsgA==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.42.2",
+    "raw": "codemirror@5.43.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.42.2",
+    "rawSpec": "5.43.0",
     "saveSpec": null,
-    "fetchSpec": "5.42.2"
+    "fetchSpec": "5.43.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.42.2.tgz",
-  "_shasum": "801ab715a7a7e1c7ed4162b78e9d8138b98de8f0",
-  "_spec": "codemirror@5.42.2",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.Gw2ieKen",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.43.0.tgz",
+  "_shasum": "2454b5e0f7005dc9945ab7b0d9594ccf233da040",
+  "_spec": "codemirror@5.43.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.R7dz2Bow",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -778,6 +778,10 @@
       "name": "Fredrik Borg"
     },
     {
+      "name": "FUJI Goro",
+      "url": "gfx"
+    },
+    {
       "name": "Gabriel Gheorghian"
     },
     {
@@ -1101,6 +1105,9 @@
     },
     {
       "name": "joelpinheiro"
+    },
+    {
+      "name": "joewalsh"
     },
     {
       "name": "Johan Ask"
@@ -1554,6 +1561,9 @@
     },
     {
       "name": "Michael Lehenbauer"
+    },
+    {
+      "name": "Michael Wadman"
     },
     {
       "name": "Michael Walker"
@@ -2428,5 +2438,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.42.2"
+  "version": "5.43.0"
 }
