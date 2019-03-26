@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.44.0",
-  "_id": "codemirror@5.44.0",
+  "_from": "codemirror@5.45.0",
+  "_id": "codemirror@5.45.0",
   "_inBundle": false,
-  "_integrity": "sha512-3l42syTNakCdCQuYeZJXTyxina6Y9i4V0ighSJXNCQtRbaCN76smKKLu1ZHPHQon3rnzC7l4i/0r4gp809K1wg==",
+  "_integrity": "sha512-c19j644usCE8gQaXa0jqn2B/HN9MnB2u6qPIrrhrMkB+QAP42y8G4QnTwuwbVSoUS1jEl7JU9HZMGhCDL0nsAw==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.44.0",
+    "raw": "codemirror@5.45.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.44.0",
+    "rawSpec": "5.45.0",
     "saveSpec": null,
-    "fetchSpec": "5.44.0"
+    "fetchSpec": "5.45.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.44.0.tgz",
-  "_shasum": "80dc2a231eeb7aab25ec2405cdca37e693ccf9cc",
-  "_spec": "codemirror@5.44.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.nfNtHMBE",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.45.0.tgz",
+  "_shasum": "db5ebbb3bf44028c684053f3954d011efcec27ad",
+  "_spec": "codemirror@5.45.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.01WFHV9x",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -71,6 +71,9 @@
     },
     {
       "name": "Adán Lobato"
+    },
+    {
+      "name": "Aditya Toshniwal"
     },
     {
       "name": "Adrian Aichner"
@@ -757,10 +760,10 @@
       "name": "Florian Felten"
     },
     {
-      "name": "ForbesLindesay"
+      "name": "Forbes Lindesay"
     },
     {
-      "name": "Forbes Lindesay"
+      "name": "ForbesLindesay"
     },
     {
       "name": "Ford_Lawnmower"
@@ -882,6 +885,9 @@
     },
     {
       "name": "Hans Engel"
+    },
+    {
+      "name": "Hanzhao Deng"
     },
     {
       "name": "Harald Schilly"
@@ -1236,6 +1242,9 @@
       "name": "Kazuhito Hokamura"
     },
     {
+      "name": "Kees de Kooter"
+    },
+    {
       "name": "Kenan Christian Dimas"
     },
     {
@@ -1318,6 +1327,9 @@
     },
     {
       "name": "Lemmon"
+    },
+    {
+      "name": "Leo Baschy"
     },
     {
       "name": "Leonid Khachaturov"
@@ -1660,10 +1672,10 @@
       "name": "mtaran-google"
     },
     {
-      "name": "Mu-An Chiou"
+      "name": "Mu-An ✌️ Chiou"
     },
     {
-      "name": "Mu-An ✌️ Chiou"
+      "name": "Mu-An Chiou"
     },
     {
       "name": "mzabuawala"
@@ -2228,6 +2240,9 @@
       "name": "Thomas Kluyver"
     },
     {
+      "name": "thomasmaclean"
+    },
+    {
       "name": "Thomas Schmid"
     },
     {
@@ -2280,6 +2295,9 @@
     },
     {
       "name": "tophf"
+    },
+    {
+      "name": "Torgeir Thoresen"
     },
     {
       "name": "totalamd"
@@ -2355,6 +2373,9 @@
     },
     {
       "name": "Will Dean"
+    },
+    {
+      "name": "William Desportes"
     },
     {
       "name": "William Jamieson"
@@ -2456,5 +2477,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.44.0"
+  "version": "5.45.0"
 }
