@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.45.0",
-  "_id": "codemirror@5.45.0",
+  "_from": "codemirror@5.46.0",
+  "_id": "codemirror@5.46.0",
   "_inBundle": false,
-  "_integrity": "sha512-c19j644usCE8gQaXa0jqn2B/HN9MnB2u6qPIrrhrMkB+QAP42y8G4QnTwuwbVSoUS1jEl7JU9HZMGhCDL0nsAw==",
+  "_integrity": "sha512-3QpMge0vg4QEhHW3hBAtCipJEWjTJrqLLXdIaWptJOblf1vHFeXLNtFhPai/uX2lnFCehWNk4yOdaMR853Z02w==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.45.0",
+    "raw": "codemirror@5.46.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.45.0",
+    "rawSpec": "5.46.0",
     "saveSpec": null,
-    "fetchSpec": "5.45.0"
+    "fetchSpec": "5.46.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.45.0.tgz",
-  "_shasum": "db5ebbb3bf44028c684053f3954d011efcec27ad",
-  "_spec": "codemirror@5.45.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.01WFHV9x",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.46.0.tgz",
+  "_shasum": "be3591572f88911e0105a007c324856a9ece0fb7",
+  "_spec": "codemirror@5.46.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.DTKimSF3",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -505,6 +505,9 @@
       "name": "ciaranj"
     },
     {
+      "name": "clso"
+    },
+    {
       "name": "CodeAnimal"
     },
     {
@@ -704,6 +707,9 @@
     },
     {
       "name": "Eric Bogard"
+    },
+    {
+      "name": "Erik Demaine"
     },
     {
       "name": "Erik Welander"
@@ -1375,6 +1381,9 @@
     },
     {
       "name": "Luciano Longo"
+    },
+    {
+      "name": "Luciano Santana"
     },
     {
       "name": "Lu Fangjian"
@@ -2054,6 +2063,9 @@
       "name": "Scott Aikin"
     },
     {
+      "name": "Scott Feeney"
+    },
+    {
       "name": "Scott Goodhew"
     },
     {
@@ -2324,6 +2336,9 @@
       "name": "Tyler Long"
     },
     {
+      "name": "Vadim Dyachenko"
+    },
+    {
       "name": "Vadzim Ramanenka"
     },
     {
@@ -2477,5 +2492,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.45.0"
+  "version": "5.46.0"
 }
