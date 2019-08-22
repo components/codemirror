@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.48.2",
-  "_id": "codemirror@5.48.2",
+  "_from": "codemirror@5.48.4",
+  "_id": "codemirror@5.48.4",
   "_inBundle": false,
-  "_integrity": "sha512-i9VsmC8AfA5ji6EDIZ+aoSe4vt9FcwPLdHB1k1ItFbVyuOFRrcfvnoKqwZlC7EVA2UmTRiNEypE4Uo7YvzVY8Q==",
+  "_integrity": "sha512-pUhZXDQ6qXSpWdwlgAwHEkd4imA0kf83hINmUEzJpmG80T/XLtDDEzZo8f6PQLuRCcUQhmzqqIo3ZPTRaWByRA==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.48.2",
+    "raw": "codemirror@5.48.4",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.48.2",
+    "rawSpec": "5.48.4",
     "saveSpec": null,
-    "fetchSpec": "5.48.2"
+    "fetchSpec": "5.48.4"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.48.2.tgz",
-  "_shasum": "a9dd3d426dea4cd59efd59cd98e20a9152a30922",
-  "_spec": "codemirror@5.48.2",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.afMLjyuc",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.48.4.tgz",
+  "_shasum": "4210fbe92be79a88f0eea348fab3ae78da85ce47",
+  "_spec": "codemirror@5.48.4",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.5Zdv5bNu",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -703,6 +703,9 @@
       "name": "eborden"
     },
     {
+      "name": "edoroshenko"
+    },
+    {
       "name": "edsharp"
     },
     {
@@ -888,6 +891,9 @@
     },
     {
       "name": "Grzegorz Mazur"
+    },
+    {
+      "name": "Guang Li"
     },
     {
       "name": "Guan Gui"
@@ -1161,6 +1167,9 @@
       "name": "John Lees-Miller"
     },
     {
+      "name": "John Ryan"
+    },
+    {
       "name": "John Snelson"
     },
     {
@@ -1390,6 +1399,9 @@
     },
     {
       "name": "lochel"
+    },
+    {
+      "name": "Lonnie Abelbeck"
     },
     {
       "name": "Lorenzo Simionato"
@@ -1796,6 +1808,9 @@
       "name": "nilp0inter"
     },
     {
+      "name": "Nils Knappmeier"
+    },
+    {
       "name": "Nisarg Jhaveri"
     },
     {
@@ -1971,6 +1986,9 @@
     },
     {
       "name": "Rasmus Schultz"
+    },
+    {
+      "name": "raymondf"
     },
     {
       "name": "Raymond Hill"
@@ -2375,6 +2393,9 @@
       "name": "Tyler Long"
     },
     {
+      "name": "Tyler Makaro"
+    },
+    {
       "name": "Vadim Dyachenko"
     },
     {
@@ -2534,5 +2555,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.48.2"
+  "version": "5.48.4"
 }
