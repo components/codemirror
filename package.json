@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.48.4",
-  "_id": "codemirror@5.48.4",
+  "_from": "codemirror@5.49.0",
+  "_id": "codemirror@5.49.0",
   "_inBundle": false,
-  "_integrity": "sha512-pUhZXDQ6qXSpWdwlgAwHEkd4imA0kf83hINmUEzJpmG80T/XLtDDEzZo8f6PQLuRCcUQhmzqqIo3ZPTRaWByRA==",
+  "_integrity": "sha512-Hyzr0HToBdZpLBN9dYFO/KlJAsKH37/cXVHPAqa+imml0R92tb9AkmsvjnXL+SluEvjjdfkDgRjc65NG5jnMYA==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.48.4",
+    "raw": "codemirror@5.49.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.48.4",
+    "rawSpec": "5.49.0",
     "saveSpec": null,
-    "fetchSpec": "5.48.4"
+    "fetchSpec": "5.49.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.48.4.tgz",
-  "_shasum": "4210fbe92be79a88f0eea348fab3ae78da85ce47",
-  "_spec": "codemirror@5.48.4",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.5Zdv5bNu",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.49.0.tgz",
+  "_shasum": "adedbffcc81091e4a0334bcb96b1ae3b7ada5e3f",
+  "_spec": "codemirror@5.49.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.4uJZV8Db",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -266,6 +266,9 @@
     },
     {
       "name": "Arnab Bose"
+    },
+    {
+      "name": "Arnoud Buzing"
     },
     {
       "name": "Arsène von Wyss"
@@ -1494,6 +1497,9 @@
       "name": "Mark Dalgleish"
     },
     {
+      "name": "Mark Hamstra"
+    },
+    {
       "name": "Mark Lentczner"
     },
     {
@@ -1561,6 +1567,9 @@
     },
     {
       "name": "Matthias BUSSONNIER"
+    },
+    {
+      "name": "Mattia Astorino"
     },
     {
       "name": "Matt MacPherson"
@@ -1947,6 +1956,9 @@
     },
     {
       "name": "Prayag Verma"
+    },
+    {
+      "name": "prendota"
     },
     {
       "name": "Prendota"
@@ -2510,6 +2522,9 @@
       "name": "Ziv"
     },
     {
+      "name": "zoobestik"
+    },
+    {
       "name": "zziuni"
     },
     {
@@ -2555,5 +2570,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.48.4"
+  "version": "5.49.0"
 }
