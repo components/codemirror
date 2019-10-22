@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.49.0",
-  "_id": "codemirror@5.49.0",
+  "_from": "codemirror@5.49.2",
+  "_id": "codemirror@5.49.2",
   "_inBundle": false,
-  "_integrity": "sha512-Hyzr0HToBdZpLBN9dYFO/KlJAsKH37/cXVHPAqa+imml0R92tb9AkmsvjnXL+SluEvjjdfkDgRjc65NG5jnMYA==",
+  "_integrity": "sha512-dwJ2HRPHm8w51WB5YTF9J7m6Z5dtkqbU9ntMZ1dqXyFB9IpjoUFDj80ahRVEoVanfIp6pfASJbOlbWdEf8FOzQ==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.49.0",
+    "raw": "codemirror@5.49.2",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.49.0",
+    "rawSpec": "5.49.2",
     "saveSpec": null,
-    "fetchSpec": "5.49.0"
+    "fetchSpec": "5.49.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.49.0.tgz",
-  "_shasum": "adedbffcc81091e4a0334bcb96b1ae3b7ada5e3f",
-  "_spec": "codemirror@5.49.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.4uJZV8Db",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.49.2.tgz",
+  "_shasum": "c84fdaf11b19803f828b0c67060c7bc6d154ccad",
+  "_spec": "codemirror@5.49.2",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.wk2RX5J3",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -805,6 +805,9 @@
       "name": "Franco Catena"
     },
     {
+      "name": "Frank Seifferth"
+    },
+    {
       "name": "Frank Wiegand"
     },
     {
@@ -1207,6 +1210,9 @@
     },
     {
       "name": "Jon Sangster"
+    },
+    {
+      "name": "Joo"
     },
     {
       "name": "Joost-Wim Boekesteijn"
@@ -1844,6 +1850,9 @@
       "name": "Oreoluwa Onatemowo"
     },
     {
+      "name": "oscar.lofwenhamn"
+    },
+    {
       "name": "Oskar Segersvärd"
     },
     {
@@ -2058,6 +2067,9 @@
     },
     {
       "name": "Ruslan Osmanov"
+    },
+    {
+      "name": "Ryan Pangrle"
     },
     {
       "name": "Ryan Petrello"
@@ -2570,5 +2582,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.49.0"
+  "version": "5.49.2"
 }
