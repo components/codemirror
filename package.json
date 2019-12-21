@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.49.2",
-  "_id": "codemirror@5.49.2",
+  "_from": "codemirror@5.50.0",
+  "_id": "codemirror@5.50.0",
   "_inBundle": false,
-  "_integrity": "sha512-dwJ2HRPHm8w51WB5YTF9J7m6Z5dtkqbU9ntMZ1dqXyFB9IpjoUFDj80ahRVEoVanfIp6pfASJbOlbWdEf8FOzQ==",
+  "_integrity": "sha512-32LAmGcBNhKtJP4WGgkcaCVQDyChAyaWA6jasg778ziZzo3PWBuhpAQIJMO8//Id45RoaLyXjuhcRUBoS8Vg+Q==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.49.2",
+    "raw": "codemirror@5.50.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.49.2",
+    "rawSpec": "5.50.0",
     "saveSpec": null,
-    "fetchSpec": "5.49.2"
+    "fetchSpec": "5.50.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.49.2.tgz",
-  "_shasum": "c84fdaf11b19803f828b0c67060c7bc6d154ccad",
-  "_spec": "codemirror@5.49.2",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.wk2RX5J3",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.50.0.tgz",
+  "_shasum": "aeacd18f225735b17cbab98908edace87fedcdab",
+  "_spec": "codemirror@5.50.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.jj4qHpER",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -935,6 +935,9 @@
       "name": "Harshvardhan Gupta"
     },
     {
+      "name": "Hasan Delibaş"
+    },
+    {
       "name": "Hasan Karahan"
     },
     {
@@ -996,6 +999,9 @@
     },
     {
       "name": "idleberg"
+    },
+    {
+      "name": "Igor Petruk"
     },
     {
       "name": "ilvalle"
@@ -1159,6 +1165,9 @@
     },
     {
       "name": "Johan Ask"
+    },
+    {
+      "name": "Johannes"
     },
     {
       "name": "John Connor"
@@ -1369,6 +1378,9 @@
     },
     {
       "name": "Laszlo Vidacs"
+    },
+    {
+      "name": "leaf"
     },
     {
       "name": "leaf corcoran"
@@ -1844,6 +1856,12 @@
       "name": "Oleksandr Yakovenko"
     },
     {
+      "name": "Olivia Ytterbrink"
+    },
+    {
+      "name": "Opender Singh"
+    },
+    {
       "name": "opl-"
     },
     {
@@ -1854,6 +1872,9 @@
     },
     {
       "name": "Oskar Segersvärd"
+    },
+    {
+      "name": "ossdev"
     },
     {
       "name": "overdodactyl"
@@ -2297,6 +2318,9 @@
       "name": "Tarmil"
     },
     {
+      "name": "T. Brandon Ashley"
+    },
+    {
       "name": "TDaglis"
     },
     {
@@ -2546,12 +2570,11 @@
   "deprecated": false,
   "description": "Full-featured in-browser code editor",
   "devDependencies": {
-    "blint": "^1",
+    "blint": "^1.1.0",
     "node-static": "0.7.11",
-    "phantomjs-prebuilt": "^2.1.12",
-    "rollup": "^0.66.2",
-    "rollup-plugin-buble": "^0.19.2",
-    "rollup-watch": "^4.3.1"
+    "puppeteer": "^1.20.0",
+    "rollup": "^1.26.3",
+    "rollup-plugin-buble": "^0.19.8"
   },
   "directories": {
     "lib": "./lib"
@@ -2582,5 +2605,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.49.2"
+  "version": "5.50.0"
 }
