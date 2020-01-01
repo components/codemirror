@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.50.0",
-  "_id": "codemirror@5.50.0",
+  "_from": "codemirror@5.50.2",
+  "_id": "codemirror@5.50.2",
   "_inBundle": false,
-  "_integrity": "sha512-32LAmGcBNhKtJP4WGgkcaCVQDyChAyaWA6jasg778ziZzo3PWBuhpAQIJMO8//Id45RoaLyXjuhcRUBoS8Vg+Q==",
+  "_integrity": "sha512-PPjUsC1oXSM86lunKrw609P1oM0Wu8z9rqzjbeyBYCcx44VL41aUpccdOf1PfAZtTONlmN3sT3p2etLNYa1OGg==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.50.0",
+    "raw": "codemirror@5.50.2",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.50.0",
+    "rawSpec": "5.50.2",
     "saveSpec": null,
-    "fetchSpec": "5.50.0"
+    "fetchSpec": "5.50.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.50.0.tgz",
-  "_shasum": "aeacd18f225735b17cbab98908edace87fedcdab",
-  "_spec": "codemirror@5.50.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.jj4qHpER",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.50.2.tgz",
+  "_shasum": "32ddfe2b50193fcf573d8141c4a31d267c92b4a3",
+  "_spec": "codemirror@5.50.2",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.pU5c3evb",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -918,6 +918,9 @@
     },
     {
       "name": "Hakan Tunc"
+    },
+    {
+      "name": "Hanno Fellmann"
     },
     {
       "name": "Hans Engel"
@@ -2605,5 +2608,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.50.0"
+  "version": "5.50.2"
 }
