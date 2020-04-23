@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.52.2",
-  "_id": "codemirror@5.52.2",
+  "_from": "codemirror@5.53.0",
+  "_id": "codemirror@5.53.0",
   "_inBundle": false,
-  "_integrity": "sha512-WCGCixNUck2HGvY8/ZNI1jYfxPG5cRHv0VjmWuNzbtCLz8qYA5d+je4QhSSCtCaagyeOwMi/HmmPTjBgiTm2lQ==",
+  "_integrity": "sha512-gpnlCCcfp/k9U38X5edaTNRAuNW3vNyAFiG4ZeytlHBl0PsCRYFTomLnAsTfJf/B1eQ7kyzB4k3XXolebpYhtA==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.52.2",
+    "raw": "codemirror@5.53.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.52.2",
+    "rawSpec": "5.53.0",
     "saveSpec": null,
-    "fetchSpec": "5.52.2"
+    "fetchSpec": "5.53.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.52.2.tgz",
-  "_shasum": "c29e1f7179f85eb0dd17c0586fa810e4838ff584",
-  "_spec": "codemirror@5.52.2",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.i3tMlLsp",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.53.0.tgz",
+  "_shasum": "7d5c373388e26bb902082da749a0e8cedbfe2b95",
+  "_spec": "codemirror@5.53.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.7TYkvHJb",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -128,6 +128,9 @@
     },
     {
       "name": "Alexandre Bique"
+    },
+    {
+      "name": "Alex Churchill"
     },
     {
       "name": "alexey-k"
@@ -328,6 +331,12 @@
       "name": "benbro"
     },
     {
+      "name": "Benedikt Meurer"
+    },
+    {
+      "name": "benhormann"
+    },
+    {
       "name": "Beni Cherniavsky-Paskin"
     },
     {
@@ -406,6 +415,9 @@
       "name": "Brian Grinstead"
     },
     {
+      "name": "BrianHung"
+    },
+    {
       "name": "Brian Sletten"
     },
     {
@@ -437,6 +449,9 @@
     },
     {
       "name": "Casey Klebba"
+    },
+    {
+      "name": "cBiscuit87"
     },
     {
       "name": "César González Íñiguez"
@@ -545,6 +560,9 @@
     },
     {
       "name": "Curtis Gagliardi"
+    },
+    {
+      "name": "d8888"
     },
     {
       "name": "dagsta"
@@ -802,6 +820,9 @@
       "name": "Florian Felten"
     },
     {
+      "name": "Fons van der Plas"
+    },
+    {
       "name": "Forbes Lindesay"
     },
     {
@@ -999,6 +1020,9 @@
     },
     {
       "name": "Ian Dickinson"
+    },
+    {
+      "name": "ianhi"
     },
     {
       "name": "Ian Rose"
@@ -1602,6 +1626,9 @@
       "name": "Matthew Beale"
     },
     {
+      "name": "Matthew Casperson"
+    },
+    {
       "name": "matthewhayes"
     },
     {
@@ -1660,6 +1687,9 @@
     },
     {
       "name": "mce2"
+    },
+    {
+      "name": "Mélanie Chauvel"
     },
     {
       "name": "melpon"
@@ -2111,6 +2141,9 @@
       "name": "robertop23"
     },
     {
+      "name": "Roberto Vidal"
+    },
+    {
       "name": "Robert Plummer"
     },
     {
@@ -2411,6 +2444,9 @@
       "name": "Tim Baumann"
     },
     {
+      "name": "Tim Gates"
+    },
+    {
       "name": "Timothy Farrell"
     },
     {
@@ -2650,5 +2686,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.52.2"
+  "version": "5.53.0"
 }
