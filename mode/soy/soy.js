@@ -126,7 +126,7 @@
     }
 
     function expression(stream, state) {
-      let match;
+      var match;
       if (stream.match(/[[]/)) {
         state.soyState.push("list-literal");
         state.lookupVariables = false;
