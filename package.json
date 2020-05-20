@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.53.2",
-  "_id": "codemirror@5.53.2",
+  "_from": "codemirror@5.54.0",
+  "_id": "codemirror@5.54.0",
   "_inBundle": false,
-  "_integrity": "sha512-wvSQKS4E+P8Fxn/AQ+tQtJnF1qH5UOlxtugFLpubEZ5jcdH2iXTVinb+Xc/4QjshuOxRm4fUsU2QPF1JJKiyXA==",
+  "_integrity": "sha512-Pgf3surv4zvw+KaW3doUU7pGjF0BPU8/sj7eglWJjzni46U/DDW8pu3nZY0QgQKUcICDXRkq8jZmq0y6KhxM3Q==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.53.2",
+    "raw": "codemirror@5.54.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.53.2",
+    "rawSpec": "5.54.0",
     "saveSpec": null,
-    "fetchSpec": "5.53.2"
+    "fetchSpec": "5.54.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.53.2.tgz",
-  "_shasum": "9799121cf8c50809cca487304e9de3a74d33f428",
-  "_spec": "codemirror@5.53.2",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.PxSSStVX",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.54.0.tgz",
+  "_shasum": "82b6adf662b29eeb7b867fe7839d49e25e4a0b38",
+  "_spec": "codemirror@5.54.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.VnUviHDZ",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -95,6 +95,9 @@
     },
     {
       "name": "ahoward"
+    },
+    {
+      "name": "Ajin Abraham"
     },
     {
       "name": "Akeksandr Motsjonov"
@@ -337,6 +340,9 @@
       "name": "benhormann"
     },
     {
+      "name": "Ben Hormann"
+    },
+    {
       "name": "Beni Cherniavsky-Paskin"
     },
     {
@@ -395,6 +401,9 @@
     },
     {
       "name": "borawjm"
+    },
+    {
+      "name": "Boris K"
     },
     {
       "name": "Brad Metcalf"
@@ -683,6 +692,9 @@
     },
     {
       "name": "Dimage Sapelkin"
+    },
+    {
+      "name": "Dinindu D. Wanniarachchi"
     },
     {
       "name": "dmaclach"
@@ -1219,6 +1231,9 @@
     },
     {
       "name": "Johannes"
+    },
+    {
+      "name": "John Chen"
     },
     {
       "name": "John Connor"
@@ -2021,6 +2036,9 @@
       "name": "Peter Kroon"
     },
     {
+      "name": "Peter László"
+    },
+    {
       "name": "Philipp A"
     },
     {
@@ -2456,6 +2474,9 @@
       "name": "Timothy Hatcher"
     },
     {
+      "name": "Tim van der Lippe"
+    },
+    {
       "name": "Tobias Bertelsen"
     },
     {
@@ -2686,5 +2707,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.53.2"
+  "version": "5.54.0"
 }
