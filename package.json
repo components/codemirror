@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.54.0",
-  "_id": "codemirror@5.54.0",
+  "_from": "codemirror@5.55.0",
+  "_id": "codemirror@5.55.0",
   "_inBundle": false,
-  "_integrity": "sha512-Pgf3surv4zvw+KaW3doUU7pGjF0BPU8/sj7eglWJjzni46U/DDW8pu3nZY0QgQKUcICDXRkq8jZmq0y6KhxM3Q==",
+  "_integrity": "sha512-TumikSANlwiGkdF/Blnu/rqovZ0Y3Jh8yy9TqrPbSM0xxSucq3RgnpVDQ+mD9q6JERJEIT2FMuF/fBGfkhIR/g==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.54.0",
+    "raw": "codemirror@5.55.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.54.0",
+    "rawSpec": "5.55.0",
     "saveSpec": null,
-    "fetchSpec": "5.54.0"
+    "fetchSpec": "5.55.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.54.0.tgz",
-  "_shasum": "82b6adf662b29eeb7b867fe7839d49e25e4a0b38",
-  "_spec": "codemirror@5.54.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.VnUviHDZ",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.55.0.tgz",
+  "_shasum": "23731f641288f202a6858fdc878f3149e0e04363",
+  "_spec": "codemirror@5.55.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.wv5MxTVj",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -742,6 +742,9 @@
       "name": "dwelle"
     },
     {
+      "name": "Ealton"
+    },
+    {
       "name": "eborden"
     },
     {
@@ -1077,6 +1080,9 @@
     },
     {
       "name": "Ivoah"
+    },
+    {
+      "name": "Jack Douglas"
     },
     {
       "name": "Jacob Lee"
@@ -2309,6 +2315,9 @@
       "name": "Siamak Mokhtari"
     },
     {
+      "name": "Siddhartha Gunti"
+    },
+    {
       "name": "silverwind"
     },
     {
@@ -2651,6 +2660,9 @@
       "name": "Zachary Dremann"
     },
     {
+      "name": "ZeeshanNoor"
+    },
+    {
       "name": "Zeno Rocha"
     },
     {
@@ -2669,14 +2681,15 @@
       "name": "魏鹏刚"
     }
   ],
+  "dependencies": {},
   "deprecated": false,
   "description": "Full-featured in-browser code editor",
   "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
     "blint": "^1.1.0",
     "node-static": "0.7.11",
     "puppeteer": "^1.20.0",
-    "rollup": "^1.26.3",
-    "rollup-plugin-buble": "^0.19.8"
+    "rollup": "^1.26.3"
   },
   "directories": {
     "lib": "./lib"
@@ -2707,5 +2720,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.54.0"
+  "version": "5.55.0"
 }
