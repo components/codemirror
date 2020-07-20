@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.55.0",
-  "_id": "codemirror@5.55.0",
+  "_from": "codemirror@5.56.0",
+  "_id": "codemirror@5.56.0",
   "_inBundle": false,
-  "_integrity": "sha512-TumikSANlwiGkdF/Blnu/rqovZ0Y3Jh8yy9TqrPbSM0xxSucq3RgnpVDQ+mD9q6JERJEIT2FMuF/fBGfkhIR/g==",
+  "_integrity": "sha512-MfKVmYgifXjQpLSgpETuih7A7WTTIsxvKfSLGseTY5+qt0E1UD1wblZGM6WLenORo8sgmf+3X+WTe2WF7mufyw==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.55.0",
+    "raw": "codemirror@5.56.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.55.0",
+    "rawSpec": "5.56.0",
     "saveSpec": null,
-    "fetchSpec": "5.55.0"
+    "fetchSpec": "5.56.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.55.0.tgz",
-  "_shasum": "23731f641288f202a6858fdc878f3149e0e04363",
-  "_spec": "codemirror@5.55.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.wv5MxTVj",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.56.0.tgz",
+  "_shasum": "675640fcc780105cd22d3faa738b5d7ea6426f61",
+  "_spec": "codemirror@5.56.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.4mCJZLs1",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -1362,6 +1362,9 @@
       "name": "Karol"
     },
     {
+      "name": "Kaushik Kulkarni"
+    },
+    {
       "name": "Kayur Patel"
     },
     {
@@ -2010,6 +2013,9 @@
     },
     {
       "name": "Paul Masson"
+    },
+    {
+      "name": "Paul Schmidt"
     },
     {
       "name": "Pavel"
@@ -2720,5 +2726,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.55.0"
+  "version": "5.56.0"
 }
