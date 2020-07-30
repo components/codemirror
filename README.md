@@ -1,3 +1,15 @@
+# components/codemirror
+This is a repository containing a compiled version of [CodeMirror](https://github.com/codemirror/CodeMirror), that can be referenced
+by tools that don't allow for a build step, e.g. Bower.
+
+Built releases are published in the form of git tags.
+
+## Notice
+Releases in this repo from around 5.53.0 to 5.56.0 were found to have been
+hit by a packaging bug. Fixed versions are available with a `+components1` suffix,
+e.g. `5.53.0+components1`.
+
+
 # CodeMirror
 [![Build Status](https://travis-ci.org/codemirror/CodeMirror.svg)](https://travis-ci.org/codemirror/CodeMirror)
 [![NPM version](https://img.shields.io/npm/v/codemirror.svg)](https://www.npmjs.org/package/codemirror)
