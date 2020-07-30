@@ -22,7 +22,7 @@ npm install codemirror@$TAG
 
 
 cd "$work"
-rsync -ar --delete --exclude .git --exclude component-tools "$td/node_modules/codemirror/" "$work/"
+rsync -car --delete --exclude .git --exclude component-tools "$td/node_modules/codemirror/" "$work/"
 cp component-tools/bower.json "$work/"
 rm -rf "$td"
 
