@@ -6,7 +6,10 @@ if [[ -z "$1" ]]; then
     exit -1
 fi
 
-TAG="$1"
+VERSION="$1"
+SUFFIX="$2"
+
+TAG="$VERSION$SUFFIX"
 
 if [[ ! -z "$(git tag | grep "^$TAG\$")" ]]; then
     echo "tag $1 already exists"
@@ -18,7 +21,7 @@ test -f "$work/$0"
 
 td="$(mktemp -d)"
 cd "$td"
-npm install codemirror@$TAG
+npm install codemirror@$VERSION
 
 
 cd "$work"
