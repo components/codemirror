@@ -6,24 +6,27 @@ if [[ -z "$1" ]]; then
     exit -1
 fi
 
-TAG="$1"
+VERSION="$1"
+SUFFIX="$2"
+
+TAG="$VERSION$SUFFIX"
 
 if [[ ! -z "$(git tag | grep "^$TAG\$")" ]]; then
     echo "tag $1 already exists"
     exit -1
 fi
 
-repo="$(dirname $(dirname $0))"
-test -f "$repo/component-tools/$(basename $0)"
+work="$PWD"
+test -f "$work/$0"
 
 td="$(mktemp -d)"
 cd "$td"
-npm install codemirror@$TAG
+npm install codemirror@$VERSION
 
 
-cd "$repo"
-rsync -ar --delete --exclude .git --exclude component-tools "$td/node_modules/codemirror/" "$repo/"
-cp component-tools/bower.json "$repo/"
+cd "$work"
+rsync -car --delete --exclude .git --exclude component-tools "$td/node_modules/codemirror/" "$work/"
+cp component-tools/bower.json "$work/"
 rm -rf "$td"
 
 git add -A
