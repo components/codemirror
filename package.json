@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.56.0",
-  "_id": "codemirror@5.56.0",
+  "_from": "codemirror@5.57.0",
+  "_id": "codemirror@5.57.0",
   "_inBundle": false,
-  "_integrity": "sha512-MfKVmYgifXjQpLSgpETuih7A7WTTIsxvKfSLGseTY5+qt0E1UD1wblZGM6WLenORo8sgmf+3X+WTe2WF7mufyw==",
+  "_integrity": "sha512-WGc6UL7Hqt+8a6ZAsj/f1ApQl3NPvHY/UQSzG6fB6l4BjExgVdhFaxd7mRTw1UCiYe/6q86zHP+kfvBQcZGvUg==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.56.0",
+    "raw": "codemirror@5.57.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.56.0",
+    "rawSpec": "5.57.0",
     "saveSpec": null,
-    "fetchSpec": "5.56.0"
+    "fetchSpec": "5.57.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.56.0.tgz",
-  "_shasum": "675640fcc780105cd22d3faa738b5d7ea6426f61",
-  "_spec": "codemirror@5.56.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.4mCJZLs1",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.57.0.tgz",
+  "_shasum": "d26365b72f909f5d2dbb6b1209349ca1daeb2d50",
+  "_spec": "codemirror@5.57.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.7VCANvSW",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -374,6 +374,9 @@
     },
     {
       "name": "Billy Moon"
+    },
+    {
+      "name": "Bin Ni"
     },
     {
       "name": "binny"
@@ -977,6 +980,9 @@
       "name": "Hanzhao Deng"
     },
     {
+      "name": "Haoran Yu"
+    },
+    {
       "name": "Harald Schilly"
     },
     {
@@ -1023,6 +1029,9 @@
     },
     {
       "name": "Hocdoc"
+    },
+    {
+      "name": "Howard"
     },
     {
       "name": "Hugues Malphettes"
@@ -1515,6 +1524,9 @@
       "name": "Luca Fabbri"
     },
     {
+      "name": "Lucas Buchala"
+    },
+    {
       "name": "Luciano Longo"
     },
     {
@@ -1950,6 +1962,9 @@
     },
     {
       "name": "Oreoluwa Onatemowo"
+    },
+    {
+      "name": "orionlee"
     },
     {
       "name": "oscar.lofwenhamn"
@@ -2504,6 +2519,9 @@
       "name": "Todd Kennedy"
     },
     {
+      "name": "tokafew420"
+    },
+    {
       "name": "Tomas-A"
     },
     {
@@ -2726,5 +2744,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.56.0"
+  "version": "5.57.0"
 }
