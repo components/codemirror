@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.58.1",
-  "_id": "codemirror@5.58.1",
+  "_from": "codemirror@5.58.2",
+  "_id": "codemirror@5.58.2",
   "_inBundle": false,
-  "_integrity": "sha512-UGb/ueu20U4xqWk8hZB3xIfV2/SFqnSLYONiM3wTMDqko0bsYrsAkGGhqUzbRkYm89aBKPyHtuNEbVWF9FTFzw==",
+  "_integrity": "sha512-K/hOh24cCwRutd1Mk3uLtjWzNISOkm4fvXiMO7LucCrqbh6aJDdtqUziim3MZUI6wOY0rvY1SlL1Ork01uMy6w==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.58.1",
+    "raw": "codemirror@5.58.2",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.58.1",
+    "rawSpec": "5.58.2",
     "saveSpec": null,
-    "fetchSpec": "5.58.1"
+    "fetchSpec": "5.58.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.58.1.tgz",
-  "_shasum": "ec6bf38ad2a17f74c61bd00cc6dc5a69bd167854",
-  "_spec": "codemirror@5.58.1",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.tscToVHq",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.58.2.tgz",
+  "_shasum": "ed54a1796de1498688bea1cdd4e9eeb187565d1b",
+  "_spec": "codemirror@5.58.2",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.9J7wZ73k",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -659,6 +659,9 @@
     },
     {
       "name": "David Pathakjee"
+    },
+    {
+      "name": "David R. Myers"
     },
     {
       "name": "David Rodrigues"
@@ -1611,6 +1614,9 @@
       "name": "Mark Anderson"
     },
     {
+      "name": "Mark Boyes"
+    },
+    {
       "name": "Mark Dalgleish"
     },
     {
@@ -1941,6 +1947,9 @@
     },
     {
       "name": "Nils Knappmeier"
+    },
+    {
+      "name": "Nina Pypchenko"
     },
     {
       "name": "Nisarg Jhaveri"
@@ -2753,5 +2762,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.58.1"
+  "version": "5.58.2"
 }
