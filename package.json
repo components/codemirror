@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.58.2",
-  "_id": "codemirror@5.58.2",
+  "_from": "codemirror@5.58.3",
+  "_id": "codemirror@5.58.3",
   "_inBundle": false,
-  "_integrity": "sha512-K/hOh24cCwRutd1Mk3uLtjWzNISOkm4fvXiMO7LucCrqbh6aJDdtqUziim3MZUI6wOY0rvY1SlL1Ork01uMy6w==",
+  "_integrity": "sha512-KBhB+juiyOOgn0AqtRmWyAT3yoElkuvWTI6hsHa9E6GQrl6bk/fdAYcvuqW1/upO9T9rtEtapWdw4XYcNiVDEA==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.58.2",
+    "raw": "codemirror@5.58.3",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.58.2",
+    "rawSpec": "5.58.3",
     "saveSpec": null,
-    "fetchSpec": "5.58.2"
+    "fetchSpec": "5.58.3"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.58.2.tgz",
-  "_shasum": "ed54a1796de1498688bea1cdd4e9eeb187565d1b",
-  "_spec": "codemirror@5.58.2",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.9J7wZ73k",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.58.3.tgz",
+  "_shasum": "3f0689854ecfbed5d4479a98b96148b2c3b79796",
+  "_spec": "codemirror@5.58.3",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.evVZOYVa",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -790,6 +790,9 @@
       "name": "Erik Welander"
     },
     {
+      "name": "erosman"
+    },
+    {
       "name": "eustas"
     },
     {
@@ -1016,6 +1019,9 @@
       "name": "Hélio"
     },
     {
+      "name": "Hendrik Erz"
+    },
+    {
       "name": "Hendrik Wallbaum"
     },
     {
@@ -1095,6 +1101,9 @@
     },
     {
       "name": "Irakli Gozalishvili"
+    },
+    {
+      "name": "iteriani"
     },
     {
       "name": "Ivan Kurnosov"
@@ -1590,6 +1599,9 @@
       "name": "Marcelo Camargo"
     },
     {
+      "name": "Marc Espín"
+    },
+    {
       "name": "Marco Aurélio"
     },
     {
@@ -2082,6 +2094,9 @@
     },
     {
       "name": "Peter László"
+    },
+    {
+      "name": "Phil DeJarnett"
     },
     {
       "name": "Philipp A"
@@ -2762,5 +2777,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.58.2"
+  "version": "5.58.3"
 }
