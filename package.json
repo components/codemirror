@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.58.3",
-  "_id": "codemirror@5.58.3",
+  "_from": "codemirror@5.59.0",
+  "_id": "codemirror@5.59.0",
   "_inBundle": false,
-  "_integrity": "sha512-KBhB+juiyOOgn0AqtRmWyAT3yoElkuvWTI6hsHa9E6GQrl6bk/fdAYcvuqW1/upO9T9rtEtapWdw4XYcNiVDEA==",
+  "_integrity": "sha512-UGzSkCacY9z0rSpQ3wnTWRN2nvRE6foDXnJltWW8pazInR/R+3gXHrao4IFQMv/bSBvFBxt8/HPpkpKAS54x5Q==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.58.3",
+    "raw": "codemirror@5.59.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.58.3",
+    "rawSpec": "5.59.0",
     "saveSpec": null,
-    "fetchSpec": "5.58.3"
+    "fetchSpec": "5.59.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.58.3.tgz",
-  "_shasum": "3f0689854ecfbed5d4479a98b96148b2c3b79796",
-  "_spec": "codemirror@5.58.3",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.evVZOYVa",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.59.0.tgz",
+  "_shasum": "6d8132055459aabf21d04cae5cf5c430e5c57bb9",
+  "_spec": "codemirror@5.59.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.Lmj8MAIx",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -769,6 +769,9 @@
       "name": "Elisée"
     },
     {
+      "name": "Elmar Peise"
+    },
+    {
       "name": "elpnt"
     },
     {
@@ -1127,6 +1130,9 @@
       "name": "Jakob Miland"
     },
     {
+      "name": "Jakub T. Jankiewicz"
+    },
+    {
       "name": "Jakub Vrana"
     },
     {
@@ -1437,6 +1443,9 @@
       "name": "Kier Darby"
     },
     {
+      "name": "Kim-Anh Tran"
+    },
+    {
       "name": "Klaus Silveira"
     },
     {
@@ -1680,6 +1689,9 @@
       "name": "mats cronqvist"
     },
     {
+      "name": "Matt Diehl"
+    },
+    {
       "name": "Matt Gaide"
     },
     {
@@ -1851,6 +1863,9 @@
       "name": "mloginov"
     },
     {
+      "name": "mlsad3"
+    },
+    {
       "name": "Moritz Schubotz",
       "url": "physikerwelt"
     },
@@ -1880,6 +1895,9 @@
     },
     {
       "name": "Narciso Jaramillo"
+    },
+    {
+      "name": "nathanlesage"
     },
     {
       "name": "Nathan Williams"
@@ -2117,6 +2135,9 @@
       "name": "Pieter Ouwerkerk"
     },
     {
+      "name": "Piyush"
+    },
+    {
       "name": "Pontus Melke"
     },
     {
@@ -2136,6 +2157,9 @@
     },
     {
       "name": "Qiang Li"
+    },
+    {
+      "name": "quiddity-wp"
     },
     {
       "name": "Radek Piórkowski"
@@ -2318,6 +2342,9 @@
       "name": "Seb35"
     },
     {
+      "name": "Sebastian Ślepowroński"
+    },
+    {
       "name": "Sebastian Wilzbach"
     },
     {
@@ -2376,6 +2403,9 @@
     },
     {
       "name": "Simon Edwards"
+    },
+    {
+      "name": "Simon Huber"
     },
     {
       "name": "sinkuu"
@@ -2777,5 +2807,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.58.3"
+  "version": "5.59.0"
 }
