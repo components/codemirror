@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.59.0",
-  "_id": "codemirror@5.59.0",
+  "_from": "codemirror@5.59.1",
+  "_id": "codemirror@5.59.1",
   "_inBundle": false,
-  "_integrity": "sha512-UGzSkCacY9z0rSpQ3wnTWRN2nvRE6foDXnJltWW8pazInR/R+3gXHrao4IFQMv/bSBvFBxt8/HPpkpKAS54x5Q==",
+  "_integrity": "sha512-d0SSW/PCCD4LoSCBPdnP0BzmZB1v3emomCUtVlIWgZHJ06yVeBOvBtOH7vYz707pfAvEeWbO9aP6akh8vl1V3w==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.59.0",
+    "raw": "codemirror@5.59.1",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.59.0",
+    "rawSpec": "5.59.1",
     "saveSpec": null,
-    "fetchSpec": "5.59.0"
+    "fetchSpec": "5.59.1"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.59.0.tgz",
-  "_shasum": "6d8132055459aabf21d04cae5cf5c430e5c57bb9",
-  "_spec": "codemirror@5.59.0",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.Lmj8MAIx",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.59.1.tgz",
+  "_shasum": "cd6465555a87f8a2243eb41ffb460c777e15212c",
+  "_spec": "codemirror@5.59.1",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.YDqOnjkV",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -1335,6 +1335,9 @@
       "name": "Joost-Wim Boekesteijn"
     },
     {
+      "name": "José dBruxelles"
+    },
+    {
       "name": "Joseph Pecoraro"
     },
     {
@@ -1675,6 +1678,9 @@
     },
     {
       "name": "Martin Zagora"
+    },
+    {
+      "name": "Masahiro MATAYOSHI"
     },
     {
       "name": "Mason Malone"
@@ -2723,6 +2729,12 @@
       "name": "Yang Guo"
     },
     {
+      "name": "Yash Singh"
+    },
+    {
+      "name": "Yash-Singh1"
+    },
+    {
       "name": "Yassin N. Hassan"
     },
     {
@@ -2807,5 +2819,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.59.0"
+  "version": "5.59.1"
 }
