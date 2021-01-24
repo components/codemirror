@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.59.1",
-  "_id": "codemirror@5.59.1",
+  "_from": "codemirror@5.59.2",
+  "_id": "codemirror@5.59.2",
   "_inBundle": false,
-  "_integrity": "sha512-d0SSW/PCCD4LoSCBPdnP0BzmZB1v3emomCUtVlIWgZHJ06yVeBOvBtOH7vYz707pfAvEeWbO9aP6akh8vl1V3w==",
+  "_integrity": "sha512-/D5PcsKyzthtSy2NNKCyJi3b+htRkoKv3idswR/tR6UAvMNKA7SrmyZy6fOONJxSRs1JlUWEDAbxqfdArbK8iA==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.59.1",
+    "raw": "codemirror@5.59.2",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.59.1",
+    "rawSpec": "5.59.2",
     "saveSpec": null,
-    "fetchSpec": "5.59.1"
+    "fetchSpec": "5.59.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.59.1.tgz",
-  "_shasum": "cd6465555a87f8a2243eb41ffb460c777e15212c",
-  "_spec": "codemirror@5.59.1",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.YDqOnjkV",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.59.2.tgz",
+  "_shasum": "ee674d3a4a8d241af38d52afc482625ba7393922",
+  "_spec": "codemirror@5.59.2",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.kkfaYOgI",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -143,6 +143,9 @@
     },
     {
       "name": "Alex Piggott"
+    },
+    {
+      "name": "Alf Eaton"
     },
     {
       "name": "Aliaksei Chapyzhenka"
@@ -1569,6 +1572,9 @@
       "name": "Lu Fangjian"
     },
     {
+      "name": "Łukasz Wielgus"
+    },
+    {
       "name": "Luke Browning"
     },
     {
@@ -2537,6 +2543,9 @@
       "name": "themrmax"
     },
     {
+      "name": "Thiemo Kreuz"
+    },
+    {
       "name": "think"
     },
     {
@@ -2819,5 +2828,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.59.1"
+  "version": "5.59.2"
 }
