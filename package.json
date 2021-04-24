@@ -1,28 +1,28 @@
 {
-  "_from": "codemirror@5.59.4",
-  "_id": "codemirror@5.59.4",
+  "_from": "codemirror@5.60.0",
+  "_id": "codemirror@5.60.0",
   "_inBundle": false,
-  "_integrity": "sha512-achw5JBgx8QPcACDDn+EUUXmCYzx/zxEtOGXyjvLEvYY8GleUrnfm5D+Zb+UjShHggXKDT9AXrbkBZX6a0YSQg==",
+  "_integrity": "sha512-AEL7LhFOlxPlCL8IdTcJDblJm8yrAGib7I+DErJPdZd4l6imx8IMgKK3RblVgBQqz3TZJR4oknQ03bz+uNjBYA==",
   "_location": "/codemirror",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "codemirror@5.59.4",
+    "raw": "codemirror@5.60.0",
     "name": "codemirror",
     "escapedName": "codemirror",
-    "rawSpec": "5.59.4",
+    "rawSpec": "5.60.0",
     "saveSpec": null,
-    "fetchSpec": "5.59.4"
+    "fetchSpec": "5.60.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.59.4.tgz",
-  "_shasum": "bfc11c8ce32b04818e8d661bbd790a94f4b3a6f3",
-  "_spec": "codemirror@5.59.4",
-  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.hQ1SASGl",
+  "_resolved": "https://registry.npmjs.org/codemirror/-/codemirror-5.60.0.tgz",
+  "_shasum": "00a8cfd287d5d8737ceb73987f04aee2fe5860da",
+  "_spec": "codemirror@5.60.0",
+  "_where": "/private/var/folders/9p/clj0fc754y35m01btd46043c0000gn/T/tmp.544HIpay",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
@@ -571,6 +571,9 @@
       "name": "ComFreek"
     },
     {
+      "name": "Cornelius Weig"
+    },
+    {
       "name": "Cristian Prieto"
     },
     {
@@ -1067,6 +1070,9 @@
       "name": "Ian Dickinson"
     },
     {
+      "name": "Ian Henderson"
+    },
+    {
       "name": "ianhi"
     },
     {
@@ -1128,6 +1134,9 @@
     },
     {
       "name": "Jake Peyser"
+    },
+    {
+      "name": "Jakob Kummerow"
     },
     {
       "name": "Jakob Miland"
@@ -1534,6 +1543,9 @@
     },
     {
       "name": "Lior Shub"
+    },
+    {
+      "name": "lishid"
     },
     {
       "name": "LloydMilligan"
@@ -2828,5 +2840,5 @@
     "watch": "rollup -w -c"
   },
   "style": "lib/codemirror.css",
-  "version": "5.59.4"
+  "version": "5.60.0"
 }
