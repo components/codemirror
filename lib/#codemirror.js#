@@ -4483,6 +4483,7 @@
   else if (gecko) { wheelPixelsPerUnit = 15; }
   else if (chrome) { wheelPixelsPerUnit = -.7; }
   else if (safari) { wheelPixelsPerUnit = -1/3; }
+  console.log("start with", wheelPixelsPerUnit)
 
   function wheelEventDelta(e) {
     var dx = e.wheelDeltaX, dy = e.wheelDeltaY;
@@ -4500,12 +4501,6 @@
 
   function onScrollWheel(cm, e) {
     var delta = wheelEventDelta(e), dx = delta.x, dy = delta.y;
-    var pixelsPerUnit = wheelPixelsPerUnit;
-    if (event.deltaMode === 0) {
-      dx = e.deltaX;
-      dy = e.deltaY;
-      pixelsPerUnit = 1;
-    }
 
     var display = cm.display, scroll = display.scroller;
     // Quit if there's nothing to scroll here
@@ -4534,10 +4529,10 @@
     // estimated pixels/delta value, we just handle horizontal
     // scrolling entirely here. It'll be slightly off from native, but
     // better than glitching out.
-    if (dx && !gecko && !presto && pixelsPerUnit != null) {
+    if (dx && !gecko && !presto && wheelPixelsPerUnit != null) {
       if (dy && canScrollY)
-        { updateScrollTop(cm, Math.max(0, scroll.scrollTop + dy * pixelsPerUnit)); }
-      setScrollLeft(cm, Math.max(0, scroll.scrollLeft + dx * pixelsPerUnit));
+        { updateScrollTop(cm, Math.max(0, scroll.scrollTop + dy * wheelPixelsPerUnit)); }
+      setScrollLeft(cm, Math.max(0, scroll.scrollLeft + dx * wheelPixelsPerUnit));
       // Only prevent default scrolling if vertical scrolling is
       // actually possible. Otherwise, it causes vertical scroll
       // jitter on OSX trackpads when deltaX is small and deltaY
@@ -4550,15 +4545,15 @@
 
     // 'Project' the visible viewport to cover the area that is being
     // scrolled into view (if we know enough to estimate it).
-    if (dy && pixelsPerUnit != null) {
-      var pixels = dy * pixelsPerUnit;
+    if (dy && wheelPixelsPerUnit != null) {
+      var pixels = dy * wheelPixelsPerUnit;
       var top = cm.doc.scrollTop, bot = top + display.wrapper.clientHeight;
       if (pixels < 0) { top = Math.max(0, top + pixels - 50); }
       else { bot = Math.min(cm.doc.height, bot + pixels + 50); }
       updateDisplaySimple(cm, {top: top, bottom: bot});
     }
 
-    if (wheelSamples < 20 && e.deltaMode !== 0) {
+    if (wheelSamples < 20) {
       if (display.wheelStartX == null) {
         display.wheelStartX = scroll.scrollLeft; display.wheelStartY = scroll.scrollTop;
         display.wheelDX = dx; display.wheelDY = dy;
@@ -4568,6 +4563,7 @@
           var movedY = scroll.scrollTop - display.wheelStartY;
           var sample = (movedY && display.wheelDY && movedY / display.wheelDY) ||
             (movedX && display.wheelDX && movedX / display.wheelDX);
+          console.log("sample", display.wheelStartY, movedY, sample)
           display.wheelStartX = display.wheelStartY = null;
           if (!sample) { return }
           wheelPixelsPerUnit = (wheelPixelsPerUnit * wheelSamples + sample) / (wheelSamples + 1);
@@ -9832,7 +9828,7 @@
 
   addLegacyProps(CodeMirror);
 
-  CodeMirror.version = "5.63.1";
+  CodeMirror.version = "5.63.0";
 
   return CodeMirror;
 
