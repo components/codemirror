@@ -1,44 +1,47 @@
 {
   "name": "codemirror",
-  "version": "6.0.0",
-  "description": "Basic configuration for the CodeMirror code editor",
-  "scripts": {
-    "test": "cm-runtests",
-    "prepare": "cm-buildhelper src/codemirror.ts"
-  },
-  "keywords": [
-    "editor",
-    "code"
-  ],
+  "version": "5.65.6",
+  "main": "lib/codemirror.js",
+  "style": "lib/codemirror.css",
   "author": {
     "name": "Marijn Haverbeke",
     "email": "marijnh@gmail.com",
     "url": "http://marijnhaverbeke.nl"
   },
-  "type": "module",
-  "main": "dist/index.cjs",
-  "exports": {
-    "import": "./dist/index.js",
-    "require": "./dist/index.cjs"
-  },
-  "types": "dist/index.d.ts",
-  "module": "dist/index.js",
-  "sideEffects": false,
+  "description": "Full-featured in-browser code editor",
   "license": "MIT",
-  "dependencies": {
-    "@codemirror/autocomplete": "^6.0.0",
-    "@codemirror/commands": "^6.0.0",
-    "@codemirror/language": "^6.0.0",
-    "@codemirror/lint": "^6.0.0",
-    "@codemirror/search": "^6.0.0",
-    "@codemirror/state": "^6.0.0",
-    "@codemirror/view": "^6.0.0"
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -w -c",
+    "prepare": "npm run-script build",
+    "test": "node ./test/run.js",
+    "lint": "bin/lint"
   },
   "devDependencies": {
-    "@codemirror/buildhelper": "^0.1.5"
+    "@rollup/plugin-buble": "^0.21.3",
+    "blint": "^1.1.0",
+    "node-static": "0.7.11",
+    "puppeteer": "^1.20.0",
+    "rollup": "^1.26.3"
   },
+  "bugs": "http://github.com/codemirror/CodeMirror/issues",
+  "keywords": [
+    "JavaScript",
+    "CodeMirror",
+    "Editor"
+  ],
+  "homepage": "https://codemirror.net/5/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codemirror/basic-setup.git"
-  }
+    "url": "https://github.com/codemirror/CodeMirror.git"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {},
+    "devDependencies": {}
+  },
+  "dependencies": {}
 }
